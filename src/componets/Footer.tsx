@@ -4,6 +4,7 @@ import {
   Box,
   Button,
   Container,
+  Flex,
   Stack,
   Text,
   useColorModeValue,
@@ -89,6 +90,20 @@ export default function SmallWithLogoLeft() {
           <FaLinkedin />
           <FaInstagram />
         </Stack>
+      </Container>
+
+      <Container
+        as={Stack}
+        maxW={"6xl"}
+        py={4}
+        direction={{ base: "column", md: "row" }}
+        spacing={4}
+        align={{ base: "center", md: "center" }}
+      >
+        <Text>Contato:</Text>
+        <Text>Stefanie Hemmann</Text>
+        <Text>(15) 99701-0151</Text>
+        <Text>stefanie.hemmann@outlook.com</Text>
       </Container>
     </Box>
   );
