@@ -100,10 +100,9 @@ export default function SmallWithLogoLeft() {
         spacing={4}
         align={{ base: "center", md: "center" }}
       >
-        <Text>Contato:</Text>
-        <Text>Stefanie Hemmann</Text>
-        <Text>(15) 99701-0151</Text>
-        <Text>stefanie.hemmann@outlook.com</Text>
+        <Text>BAUEN TECH TECNOLOGIA LTDA</Text>
+        <Text>56.347.236/0001-53</Text>
+        <Text>contato@nukibr.com</Text>
       </Container>
     </Box>
   );
